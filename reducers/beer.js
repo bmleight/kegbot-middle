@@ -1,6 +1,7 @@
 const BeerTypes = require('kegbot-middle/action-types/beer');
 
 const internals =  {
+    // mock getting this from the api for now
     initial: () => ({
         isLoading: false,
         error: null,
