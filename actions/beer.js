@@ -49,3 +49,12 @@ exports.loadBeer = () => {
         return getBeers;
     };
 };
+
+exports.rateBeer = (id, rating) => {
+
+    return {
+        type: BeerTypes.BEER_RATE,
+        id,
+        rating
+    };
+};
