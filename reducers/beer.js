@@ -63,7 +63,7 @@ module.exports = (state, action) => {
             });
 
         case BeerTypes.BEER_RATE:
-            console.log(action);
+
             return Deeply(state)
                 .push(`all.${action.id}.ratings`, parseFloat(action.rating))
                 .value()
