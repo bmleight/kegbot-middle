@@ -4,5 +4,6 @@ const KeyMirror = require('keymirror');
 module.exports = KeyMirror({
     BEERS_LOAD_BEGIN: true,
     BEERS_LOAD_SECCESS: true,
-    BEERS_LOAD_ERROR: true
+    BEERS_LOAD_ERROR: true,
+    BEER_RATE: true
 });
